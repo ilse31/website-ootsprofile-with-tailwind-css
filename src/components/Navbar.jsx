@@ -4,7 +4,7 @@ const Navbar = () =>
 {
     return (
         <div className='bg-white py-4 shadow-sm sticky top-0 z-50'>
-            <div className='max-w-6xl mx-auto px-4 container'>
+            <div className='max-w-5xl mx-auto px-4 container'>
                 <div className="flex flex-row justify-between items-center flex-wrap">
                     <a href="/" className='text-green-400 font-normal text-xl'>OOTS 2022</a>
                     <button onClick={ () => document.getElementById( 'navbar' ).classList.toggle( 'hidden' ) } className='focus:ring-1 p-2 ring-green-500 md:hidden rounded-md'>
